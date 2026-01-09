@@ -61,7 +61,7 @@ interface Web3AuthError extends Error {
 }
 
 // Constants
-const CLIENT_ID: string = process.env.NEXT_PUBLIC_CLIENT_ID
+const CLIENT_ID = process.env.NEXT_PUBLIC_CLIENT_ID as string
 
 // Chain Configuration
 // const chainConfig = {
